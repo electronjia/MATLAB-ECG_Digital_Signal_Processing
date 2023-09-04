@@ -6,7 +6,7 @@ clc
 
 %% Resistor used: 4.7K Ohm Resistor
 %Import and plot raw ECG data
-data = readmatrix('4.7k_ohmECG.CSV'); % imports online obtained CSV data into a matrix
+data = readmatrix('4.7k_ohmECG.CSV'); % imports oscilloscope obtained CSV data into a matrix
 A = data(:,2); % extracts just the voltage values (col #2)
 figure
 subplot(2,1,1)
